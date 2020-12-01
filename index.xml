@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intelligence Modifier</title>
-    <link>https://intmodifier.github.io/</link>
+    <link>https://IntModifier.github.io/</link>
     <description>Recent content on Intelligence Modifier</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://intmodifier.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://IntModifier.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
