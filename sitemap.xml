@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://IntModifier.github.io/tags/first/</loc>
+    <loc>https://IntModifier.github.io/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://IntModifier.github.io/</loc>
+    <loc>https://IntModifier.github.io/tags/first/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -37,6 +37,10 @@
   
   <url>
     <loc>https://IntModifier.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://IntModifier.github.io/series/</loc>
   </url>
   
 </urlset>
