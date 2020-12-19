@@ -5,22 +5,67 @@
     <link>https://IntModifier.github.io/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://IntModifier.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://IntModifier.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>test</title>
-      <link>https://IntModifier.github.io/tags/test/</link>
-      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      <title>blogtober2020</title>
+      <link>https://IntModifier.github.io/tags/blogtober2020/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/tags/test/</guid>
+      <guid>https://IntModifier.github.io/tags/blogtober2020/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>first</title>
-      <link>https://IntModifier.github.io/tags/first/</link>
-      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <title>homelab</title>
+      <link>https://IntModifier.github.io/tags/homelab/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/tags/first/</guid>
+      <guid>https://IntModifier.github.io/tags/homelab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vexpert</title>
+      <link>https://IntModifier.github.io/tags/vexpert/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://IntModifier.github.io/tags/vexpert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vmworld</title>
+      <link>https://IntModifier.github.io/tags/vmworld/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://IntModifier.github.io/tags/vmworld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vmware</title>
+      <link>https://IntModifier.github.io/tags/vmware/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://IntModifier.github.io/tags/vmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powershell</title>
+      <link>https://IntModifier.github.io/tags/powershell/</link>
+      <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://IntModifier.github.io/tags/powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powercli</title>
+      <link>https://IntModifier.github.io/tags/powercli/</link>
+      <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://IntModifier.github.io/tags/powercli/</guid>
       <description></description>
     </item>
     

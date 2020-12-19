@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>powercli on </title>
+    <link>https://IntModifier.github.io/tags/powercli/</link>
+    <description>Recent content in powercli on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 07 Oct 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://IntModifier.github.io/tags/powercli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connect-VIServer -Part 1</title>
+      <link>https://IntModifier.github.io/posts/2017/connect_viserver_part_1/</link>
+      <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://IntModifier.github.io/posts/2017/connect_viserver_part_1/</guid>
+      <description>Installing and Connecting Before we get to far,you will need to have PowerCLI installed. You can probably get away with a an older version but as of my writing this I have only validated these commands using PowerShell 5.1 and PowerCLI 6.5.x
+Prerequisites  Basic knowledge of PowerShell Uninstall any versions older than 6.5 from the Windows Control Panel Update PowerShell (WMF) 5.1 - Info Here If this is your first time installing anything via Find-Module and Install-Module, you will most likely be prompted to install the Nuget module when you run the commands for the first time.</description>
+    </item>
+    
+  </channel>
+</rss>
