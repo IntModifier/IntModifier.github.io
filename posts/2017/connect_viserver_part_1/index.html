@@ -44,7 +44,7 @@ Prerequisites  Basic knowledge of PowerShell Uninstall any versions older than 6
   "keywords": [
     "powercli", "powershell"
   ],
-  "articleBody": "Installing and Connecting Before we get to far,you will need to have PowerCLI installed. You can probably get away with a an older version but as of my writing this I have only validated these commands using PowerShell 5.1 and PowerCLI 6.5.x\nPrerequisites  Basic knowledge of PowerShell Uninstall any versions older than 6.5 from the Windows Control Panel Update PowerShell (WMF) 5.1 - Info Here If this is your first time installing anything via Find-Module and Install-Module, you will most likely be prompted to install the Nuget module when you run the commands for the first time.  Installing PowerCLI from the PSGallery Starting with version 6.5, VMware has stopped delivering PowerCLI via MSI installer. They have instead embraced the more standard delivery of PowerShell Modules via Microsoft’s PSGallery. This has the benefits of making the module easier to install on new computers, and easier to update when a new version is released. Also by using a more standard setup for the module, this means you no longer have to launch a special PowerCLI shell. The PowerCLI module is loaded right into the normal PowerShell window making thinks like scripts much less complicated. For users of previous versions, as mentioned above in the prerequisites, need to manually uninstall all old version as the new Install method is not capable of doing this. Now lets get installing.\n  Open a PowerShell prompt in Administrator Mode.\n  Use the following command to Find PowerCLI out on PSGallery Find-Module -Name vmware.powercli\n  You should have a result like the one below:\n  Now to install the module use the following command, which will then ask you to confirm you want to install the module from an “Untrusted Repository”. Find-Module -Name vmware.powercli | Install-Module -AllowClobber\n  You will now see PowerShell download and install PowerCL\n  Once the progress bars disappear, you are now ready to connect to your VMware environment via PowerCLI! Which I will cover in part 2.\n",
+  "articleBody": "Installing and Connecting Before we get to far,you will need to have PowerCLI installed. You can probably get away with a an older version but as of my writing this I have only validated these commands using PowerShell 5.1 and PowerCLI 6.5.x\nPrerequisites  Basic knowledge of PowerShell Uninstall any versions older than 6.5 from the Windows Control Panel Update PowerShell (WMF) 5.1 - Info Here If this is your first time installing anything via Find-Module and Install-Module, you will most likely be prompted to install the Nuget module when you run the commands for the first time.  Installing PowerCLI from the PSGallery Starting with version 6.5, VMware has stopped delivering PowerCLI via MSI installer. They have instead embraced the more standard delivery of PowerShell Modules via Microsoft’s PSGallery. This has the benefits of making the module easier to install on new computers, and easier to update when a new version is released. Also by using a more standard setup for the module, this means you no longer have to launch a special PowerCLI shell. The PowerCLI module is loaded right into the normal PowerShell window making thinks like scripts much less complicated. For users of previous versions, as mentioned above in the prerequisites, need to manually uninstall all old version as the new Install method is not capable of doing this. Now lets get installing.\n Open a PowerShell prompt in Administrator Mode. Use the following command to Find PowerCLI out on PSGallery Find-Module -Name vmware.powercli You should have a result like the one below:  Now to install the module use the following command, which will then ask you to confirm you want to install the module from an “Untrusted Repository”.  Find-Module -Name vmware.powercli | Install-Module -AllowClobber\nYou will now see PowerShell download and install PowerCL  Once the progress bars disappear, you are now ready to connect to your VMware environment via PowerCLI! Which I will cover in part 2.\n",
   "wordCount" : "319",
   "inLanguage": "en",
   "datePublished": "2017-10-07T00:00:00Z",
@@ -148,24 +148,19 @@ October 7, 2017&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Me
 <h3 id="installing-powercli-from-the-psgallery">Installing PowerCLI from the PSGallery<a hidden class="anchor" aria-hidden="true" href="#installing-powercli-from-the-psgallery">#</a></h3>
 <p>Starting with version 6.5, VMware has stopped delivering PowerCLI via MSI installer. They have instead embraced the more standard delivery of PowerShell Modules via Microsoft&rsquo;s PSGallery. This has the benefits of making the module easier to install on new computers, and easier to update when a new version is released. Also by using a more standard setup for the module, this means you no longer have to launch a special PowerCLI shell. The PowerCLI module is loaded right into the normal PowerShell window making thinks like scripts much less complicated. For users of previous versions, as mentioned above in the prerequisites, need to manually uninstall all old version as the new Install method is not capable of doing this. Now lets get installing.</p>
 <ol>
-<li>
-<p>Open a PowerShell prompt in Administrator Mode.</p>
-</li>
-<li>
-<p>Use the following command to Find PowerCLI out on PSGallery
-<code>Find-Module -Name vmware.powercli</code></p>
-</li>
-<li>
-<p>You should have a result like the one below:</p>
-</li>
-<li>
-<p>Now to install the module use the following command, which will then ask you to confirm you want to install the module from an &ldquo;Untrusted Repository&rdquo;.
-<code>Find-Module -Name vmware.powercli | Install-Module -AllowClobber</code></p>
-</li>
-<li>
-<p>You will now see PowerShell download and install PowerCL</p>
-</li>
+<li>Open a PowerShell prompt in Administrator Mode.</li>
+<li>Use the following command to Find PowerCLI out on PSGallery
+<code>Find-Module -Name vmware.powercli</code></li>
+<li>You should have a result like the one below:
+<img src="/Find-Module.png" alt="Find-Module"></li>
+<li>Now to install the module use the following command, which will then ask you to confirm you want to install the module from an &ldquo;Untrusted Repository&rdquo;.</li>
 </ol>
+<p><code>Find-Module -Name vmware.powercli | Install-Module -AllowClobber</code></p>
+<p><img src="/Confirm+Install.png" alt="Confrim and Install"></p>
+<ol start="5">
+<li>You will now see PowerShell download and install PowerCL</li>
+</ol>
+<p><img src="/Installing.png" alt="Installing"></p>
 <p>Once the progress bars disappear, you are now ready to connect to your VMware environment via PowerCLI! Which I will cover in part 2.</p>
 
 </div>
