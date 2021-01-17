@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://IntModifier.github.io/</link>
+    <link>https://intelligencemodifier.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://IntModifier.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://intelligencemodifier.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SCCM Patching Kickstart Script</title>
-      <link>https://IntModifier.github.io/posts/2020/sccm-patching-kickstart-script/</link>
+      <link>https://intelligencemodifier.com/posts/2020/sccm-patching-kickstart-script/</link>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2020/sccm-patching-kickstart-script/</guid>
+      <guid>https://intelligencemodifier.com/posts/2020/sccm-patching-kickstart-script/</guid>
       <description>Solving Problems A while back I had the need at my day job to help stream line our Windows Server patching process. We had moved to using SCCM and Maintenance Windows but due to business requirements were not able to allow software updates to be installed too far ahead of time and just sit at PENDING REBOOT.
 Unfortunately, SCCM doesn’t really give you a lot of room for fine tuning, and none of the out of box options fit all our requirements.</description>
     </item>
     
     <item>
       <title>Domain Services with Zentyal OS</title>
-      <link>https://IntModifier.github.io/posts/2020/domain-services-with-zentyal-os/</link>
+      <link>https://intelligencemodifier.com/posts/2020/domain-services-with-zentyal-os/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2020/domain-services-with-zentyal-os/</guid>
+      <guid>https://intelligencemodifier.com/posts/2020/domain-services-with-zentyal-os/</guid>
       <description>While building out the new Intmod NUC lab, I needed to decide on how I was going to handle typical Domain services for it. I just need a basic setup to allow me to properly setup my vSphere lab. The first route of course would be spinning up a Windows domain controller and all the fixins; either by using the trial ISOs and having to rebuild the domain every 180 days or so, or by shelling out the cash for a license.</description>
     </item>
     
     <item>
       <title>Blogtober 2020 &#43; Homelab</title>
-      <link>https://IntModifier.github.io/posts/2020/blogtober_2020_and_homelab/</link>
+      <link>https://intelligencemodifier.com/posts/2020/blogtober_2020_and_homelab/</link>
       <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2020/blogtober_2020_and_homelab/</guid>
+      <guid>https://intelligencemodifier.com/posts/2020/blogtober_2020_and_homelab/</guid>
       <description>2020 has been a weird year to say the least, with several ups and downs. Like so many others, thanks to quarantine I found myself with even more time to myself at home then I already spent. Early on I told myself that i wanted to get X and Y done, do more of Z, etc. etc. but nearly 7 months in I have found it very hard to accomplish much.</description>
     </item>
     
     <item>
       <title>vExpert 2020 - 2nd Half Applications Are Open. You Should Apply.</title>
-      <link>https://IntModifier.github.io/posts/2020/vexpert-2020-h2-applications-open/</link>
+      <link>https://intelligencemodifier.com/posts/2020/vexpert-2020-h2-applications-open/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2020/vexpert-2020-h2-applications-open/</guid>
+      <guid>https://intelligencemodifier.com/posts/2020/vexpert-2020-h2-applications-open/</guid>
       <description>First - if you know you want to apply to the VMware vExpert program go here: https://vexpert.vmware.com/ You only have until June 20th before applications close again - Don’t Delay.
 If you may be unsure if you should apply, not feel confident you will make it, or just want more information about the program before applying; Keep reading.
 What is the VMware vExpert Program? Quoted from the front page of the vExpert site:</description>
@@ -47,107 +47,107 @@ What is the VMware vExpert Program? Quoted from the front page of the vExpert si
     
     <item>
       <title>VMworld 2019 - K is for Kubernetes</title>
-      <link>https://IntModifier.github.io/posts/2019/vmworld_2019_k_is_for_kubernetes/</link>
+      <link>https://intelligencemodifier.com/posts/2019/vmworld_2019_k_is_for_kubernetes/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2019/vmworld_2019_k_is_for_kubernetes/</guid>
+      <guid>https://intelligencemodifier.com/posts/2019/vmworld_2019_k_is_for_kubernetes/</guid>
       <description>“Any Application, Any Cloud, Any Device” This was once again the main driving message behind all of VMworld this year. However, you could sum up a large majority of the event with one word, Kubernetes. VMware seemed to have something new related to what they refer to as ‘Cloud Native Applications’ everywhere you looked, I have tried to summarize some of the large announcements below.
 Bitnami, Pivotal and Heptio VMware hasn’t been shy about acquisitions this past year, and several of them are directly related to enhancing their Cloud Native portfolio.</description>
     </item>
     
     <item>
       <title>vRealize at VMworld US 2019</title>
-      <link>https://IntModifier.github.io/posts/2019/vrealize_at_vmworld_us_2019/</link>
+      <link>https://intelligencemodifier.com/posts/2019/vrealize_at_vmworld_us_2019/</link>
       <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2019/vrealize_at_vmworld_us_2019/</guid>
+      <guid>https://intelligencemodifier.com/posts/2019/vrealize_at_vmworld_us_2019/</guid>
       <description>It is that time of year again, with each VMworld we get new announcements for the vRealize Suite Cloud Management tools. This year, there is a common thread across most of them, supporting more Public Clouds and Kubernetes support, but if you listed to this year’s keynote that will likely not come as a surprise. We are also getting some pretty big updates in a few of the products as well, especially in the area of vRealize Automation.</description>
     </item>
     
     <item>
       <title>Announcing vRealize Operations 8.0</title>
-      <link>https://IntModifier.github.io/posts/2019/announcing_vrealize_operations_80/</link>
+      <link>https://intelligencemodifier.com/posts/2019/announcing_vrealize_operations_80/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2019/announcing_vrealize_operations_80/</guid>
+      <guid>https://intelligencemodifier.com/posts/2019/announcing_vrealize_operations_80/</guid>
       <description>Today during VMworld 2019, the next version of vRealize Operations Manager was announced. Version 8.0 focuses on improving many existing features and adding several new features especially in the area of Hybrid and Multi Cloud support. Here are some highlights of the new features you can expect when vRealize Operations Manager 8.0 drops later this year
 Core Platform Updates  More powerful Self-Driving operations leveraging Machine Learning More What-If Analysis Scenarios including Hyper Converged Infrastructure and Data-center Comparison Troubleshooting Workbench – Correlate information in one dashboard to help track down root cause of issues.</description>
     </item>
     
     <item>
       <title>Field Notes: Replacing a vRealize LogInsight node</title>
-      <link>https://IntModifier.github.io/posts/2018/field_notes_replacing_a_vrealize_loginsight_node/</link>
+      <link>https://intelligencemodifier.com/posts/2018/field_notes_replacing_a_vrealize_loginsight_node/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2018/field_notes_replacing_a_vrealize_loginsight_node/</guid>
+      <guid>https://intelligencemodifier.com/posts/2018/field_notes_replacing_a_vrealize_loginsight_node/</guid>
       <description>NOTE: I am not a member of vmWare Global Support Services, nor should you use this as any sort of replacement for a service ticket or vmWare published documentation. This is just a process that I had to piece together during my own support case with them wanted to document for home lab use. Attempt the below steps at your own risk.
 Problem Statement While trying to expand storage per the vmWare documentation within 2 separate vRLI 4.</description>
     </item>
     
     <item>
       <title>Preparing for VMworld 2019</title>
-      <link>https://IntModifier.github.io/posts/2019/preparing_for_vmworld_2019/</link>
+      <link>https://intelligencemodifier.com/posts/2019/preparing_for_vmworld_2019/</link>
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2019/preparing_for_vmworld_2019/</guid>
+      <guid>https://intelligencemodifier.com/posts/2019/preparing_for_vmworld_2019/</guid>
       <description>I am very excited and honored to be selected to attend VMworld 2019 in San Francisco via the vExpert Blogger Pass. This will be my second VMworld, the first being in Vegas during 2017. So now that my travel plan is locked in, and I am scrolling through sessions to attend I wanted to look back at how I am planning my 2nd venture to this convention.
 Keynotes I am of course planning to attend the Monday and Tuesday keynotes (at the time of writing I don’t see a end of conference keynote listed in the schedule).</description>
     </item>
     
     <item>
       <title>VMWorld 2018 - vRealize Suite Announcements</title>
-      <link>https://IntModifier.github.io/posts/2018/vmworld_2018_vrealize_suite_announcements/</link>
+      <link>https://intelligencemodifier.com/posts/2018/vmworld_2018_vrealize_suite_announcements/</link>
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2018/vmworld_2018_vrealize_suite_announcements/</guid>
+      <guid>https://intelligencemodifier.com/posts/2018/vmworld_2018_vrealize_suite_announcements/</guid>
       <description>I wasn&amp;rsquo;t able to make it VMWorld this year, but I spent a good part of the day pouring over twitter and blog posts to find information on the 2018 version of the vRealize Suite. Below are just some quick notes on the features i am most excited about or found the most interesting, along with the official vmWare blog post link to learn more.
 vRealize Automation - 7.5 (also vRealize Business for Cloud 7.</description>
     </item>
     
     <item>
       <title>The New ISE - Visual Stuido Code</title>
-      <link>https://IntModifier.github.io/posts/2017/the_new_ise_visual_studio_code/</link>
+      <link>https://intelligencemodifier.com/posts/2017/the_new_ise_visual_studio_code/</link>
       <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2017/the_new_ise_visual_studio_code/</guid>
+      <guid>https://intelligencemodifier.com/posts/2017/the_new_ise_visual_studio_code/</guid>
       <description>Back around late 2013 when i started looking at PowerShell, I was a Help Desk agent and just looking to save some time on calls, maybe a faster way to look up user accounts then the hardly ever improved Active Directory Users and Computers UI. Soon however, with ample help from co-workers, I started to look at using scripting to improve our imaging process for laptops/desktops. To remove manual steps that just wasted our time.</description>
     </item>
     
     <item>
       <title>Connect-VIServer -Part 1</title>
-      <link>https://IntModifier.github.io/posts/2017/connect_viserver_part_1/</link>
+      <link>https://intelligencemodifier.com/posts/2017/connect_viserver_part_1/</link>
       <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2017/connect_viserver_part_1/</guid>
+      <guid>https://intelligencemodifier.com/posts/2017/connect_viserver_part_1/</guid>
       <description>Installing and Connecting Before we get to far,you will need to have PowerCLI installed. You can probably get away with a an older version but as of my writing this I have only validated these commands using PowerShell 5.1 and PowerCLI 6.5.x
 Prerequisites  Basic knowledge of PowerShell Uninstall any versions older than 6.5 from the Windows Control Panel Update PowerShell (WMF) 5.1 - Info Here If this is your first time installing anything via Find-Module and Install-Module, you will most likely be prompted to install the Nuget module when you run the commands for the first time.</description>
     </item>
     
     <item>
       <title>Set-Location $VMworld2017</title>
-      <link>https://IntModifier.github.io/posts/2017/set-location-vmworld2017/</link>
+      <link>https://intelligencemodifier.com/posts/2017/set-location-vmworld2017/</link>
       <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2017/set-location-vmworld2017/</guid>
+      <guid>https://intelligencemodifier.com/posts/2017/set-location-vmworld2017/</guid>
       <description>Well technically I am now back home, but I liked the title and ran with it.
 This year, I was lucky enough to attend my first VMWorld in Las Vegas, NV. To say that it was awesome, would be an understatement. Not only did I have a chance listen to some amazing sessions (and ear mark several for viewing once the VoDs are up), but I also got to meet quite a few VMware Community members.</description>
     </item>
     
     <item>
       <title>About Me</title>
-      <link>https://IntModifier.github.io/about/</link>
+      <link>https://intelligencemodifier.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/about/</guid>
+      <guid>https://intelligencemodifier.com/about/</guid>
       <description>about me</description>
     </item>
     
     <item>
       <title>Archive</title>
-      <link>https://IntModifier.github.io/archives/</link>
+      <link>https://intelligencemodifier.com/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/archives/</guid>
+      <guid>https://intelligencemodifier.com/archives/</guid>
       <description>archives</description>
     </item>
     

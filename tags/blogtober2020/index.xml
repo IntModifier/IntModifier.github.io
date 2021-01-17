@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogtober2020 on </title>
-    <link>https://IntModifier.github.io/tags/blogtober2020/</link>
+    <link>https://intelligencemodifier.com/tags/blogtober2020/</link>
     <description>Recent content in blogtober2020 on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 18 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://IntModifier.github.io/tags/blogtober2020/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://intelligencemodifier.com/tags/blogtober2020/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Domain Services with Zentyal OS</title>
-      <link>https://IntModifier.github.io/posts/2020/domain-services-with-zentyal-os/</link>
+      <link>https://intelligencemodifier.com/posts/2020/domain-services-with-zentyal-os/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2020/domain-services-with-zentyal-os/</guid>
+      <guid>https://intelligencemodifier.com/posts/2020/domain-services-with-zentyal-os/</guid>
       <description>While building out the new Intmod NUC lab, I needed to decide on how I was going to handle typical Domain services for it. I just need a basic setup to allow me to properly setup my vSphere lab. The first route of course would be spinning up a Windows domain controller and all the fixins; either by using the trial ISOs and having to rebuild the domain every 180 days or so, or by shelling out the cash for a license.</description>
     </item>
     
     <item>
       <title>Blogtober 2020 &#43; Homelab</title>
-      <link>https://IntModifier.github.io/posts/2020/blogtober_2020_and_homelab/</link>
+      <link>https://intelligencemodifier.com/posts/2020/blogtober_2020_and_homelab/</link>
       <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2020/blogtober_2020_and_homelab/</guid>
+      <guid>https://intelligencemodifier.com/posts/2020/blogtober_2020_and_homelab/</guid>
       <description>2020 has been a weird year to say the least, with several ups and downs. Like so many others, thanks to quarantine I found myself with even more time to myself at home then I already spent. Early on I told myself that i wanted to get X and Y done, do more of Z, etc. etc. but nearly 7 months in I have found it very hard to accomplish much.</description>
     </item>
     

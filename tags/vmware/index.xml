@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vmware on </title>
-    <link>https://IntModifier.github.io/tags/vmware/</link>
+    <link>https://intelligencemodifier.com/tags/vmware/</link>
     <description>Recent content in vmware on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://IntModifier.github.io/tags/vmware/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://intelligencemodifier.com/tags/vmware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Field Notes: Replacing a vRealize LogInsight node</title>
-      <link>https://IntModifier.github.io/posts/2018/field_notes_replacing_a_vrealize_loginsight_node/</link>
+      <link>https://intelligencemodifier.com/posts/2018/field_notes_replacing_a_vrealize_loginsight_node/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://IntModifier.github.io/posts/2018/field_notes_replacing_a_vrealize_loginsight_node/</guid>
+      <guid>https://intelligencemodifier.com/posts/2018/field_notes_replacing_a_vrealize_loginsight_node/</guid>
       <description>NOTE: I am not a member of vmWare Global Support Services, nor should you use this as any sort of replacement for a service ticket or vmWare published documentation. This is just a process that I had to piece together during my own support case with them wanted to document for home lab use. Attempt the below steps at your own risk.
 Problem Statement While trying to expand storage per the vmWare documentation within 2 separate vRLI 4.</description>
     </item>
