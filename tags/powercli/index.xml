@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>powercli on </title>
     <link>https://intelligencemodifier.com/tags/powercli/</link>
@@ -13,7 +13,7 @@
       
       <guid>https://intelligencemodifier.com/posts/2017/connect_viserver_part_1/</guid>
       <description>Installing and Connecting Before we get to far,you will need to have PowerCLI installed. You can probably get away with a an older version but as of my writing this I have only validated these commands using PowerShell 5.1 and PowerCLI 6.5.x
-Prerequisites  Basic knowledge of PowerShell Uninstall any versions older than 6.5 from the Windows Control Panel Update PowerShell (WMF) 5.1 - Info Here If this is your first time installing anything via Find-Module and Install-Module, you will most likely be prompted to install the Nuget module when you run the commands for the first time.</description>
+Prerequisites Basic knowledge of PowerShell Uninstall any versions older than 6.5 from the Windows Control Panel Update PowerShell (WMF) 5.1 - Info Here If this is your first time installing anything via Find-Module and Install-Module, you will most likely be prompted to install the Nuget module when you run the commands for the first time.</description>
     </item>
     
   </channel>

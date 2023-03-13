@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>vmworld on </title>
     <link>https://intelligencemodifier.com/tags/vmworld/</link>
@@ -32,7 +32,7 @@ Bitnami, Pivotal and Heptio VMware hasn’t been shy about acquisitions this pas
       
       <guid>https://intelligencemodifier.com/posts/2019/announcing_vrealize_operations_80/</guid>
       <description>Today during VMworld 2019, the next version of vRealize Operations Manager was announced. Version 8.0 focuses on improving many existing features and adding several new features especially in the area of Hybrid and Multi Cloud support. Here are some highlights of the new features you can expect when vRealize Operations Manager 8.0 drops later this year
-Core Platform Updates  More powerful Self-Driving operations leveraging Machine Learning More What-If Analysis Scenarios including Hyper Converged Infrastructure and Data-center Comparison Troubleshooting Workbench – Correlate information in one dashboard to help track down root cause of issues.</description>
+Core Platform Updates More powerful Self-Driving operations leveraging Machine Learning More What-If Analysis Scenarios including Hyper Converged Infrastructure and Data-center Comparison Troubleshooting Workbench – Correlate information in one dashboard to help track down root cause of issues.</description>
     </item>
     
     <item>
