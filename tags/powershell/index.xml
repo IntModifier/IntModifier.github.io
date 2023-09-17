@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>powershell on </title>
+    <title>powershell on Intellegence Modifer</title>
     <link>https://intelligencemodifier.com/tags/powershell/</link>
-    <description>Recent content in powershell on </description>
+    <description>Recent content in powershell on Intellegence Modifer</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Fri, 22 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://intelligencemodifier.com/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The New ISE - Visual Stuido Code</title>
-      <link>https://intelligencemodifier.com/posts/2017/the_new_ise_visual_studio_code/</link>
+      <title>The New ISE - Visual Studio Code</title>
+      <link>https://intelligencemodifier.com/post/2017-vscode-ise/</link>
       <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://intelligencemodifier.com/posts/2017/the_new_ise_visual_studio_code/</guid>
-      <description>Back around late 2013 when i started looking at PowerShell, I was a Help Desk agent and just looking to save some time on calls, maybe a faster way to look up user accounts then the hardly ever improved Active Directory Users and Computers UI. Soon however, with ample help from co-workers, I started to look at using scripting to improve our imaging process for laptops/desktops. To remove manual steps that just wasted our time.</description>
+      <guid>https://intelligencemodifier.com/post/2017-vscode-ise/</guid>
+      <description>
+        
+          
+            Back around late 2013 when i started looking at PowerShell, I was a Help Desk agent and just looking to save some time on calls, maybe a faster way to look up user accounts then the hardly ever improved Active Directory Users and Computers UI. Soon however, with ample help from co-workers, I started to look at using scripting to improve our imaging process for laptops/desktops. To remove manual steps that just wasted our time.
+          
+          
+        
+      </description>
     </item>
     
     <item>
       <title>Connect-VIServer -Part 1</title>
-      <link>https://intelligencemodifier.com/posts/2017/connect_viserver_part_1/</link>
+      <link>https://intelligencemodifier.com/post/2017-powercli-pt1/</link>
       <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://intelligencemodifier.com/posts/2017/connect_viserver_part_1/</guid>
-      <description>Installing and Connecting Before we get to far,you will need to have PowerCLI installed. You can probably get away with a an older version but as of my writing this I have only validated these commands using PowerShell 5.1 and PowerCLI 6.5.x
-Prerequisites Basic knowledge of PowerShell Uninstall any versions older than 6.5 from the Windows Control Panel Update PowerShell (WMF) 5.1 - Info Here If this is your first time installing anything via Find-Module and Install-Module, you will most likely be prompted to install the Nuget module when you run the commands for the first time.</description>
+      <guid>https://intelligencemodifier.com/post/2017-powercli-pt1/</guid>
+      <description>
+        
+          
+            Installing and Connecting Before we get to far,you will need to have PowerCLI installed. You can probably get away with a an older version but as of my writing this I have only validated these commands using PowerShell 5.1 and PowerCLI 6.5.x
+Prerequisites Basic knowledge of PowerShell Uninstall any versions older than 6.5 from the Windows Control Panel Update PowerShell (WMF) 5.1 - Info Here If this is your first time installing anything via Find-Module and Install-Module, you will most likely be prompted to install the Nuget module when you run the commands for the first time.
+          
+          
+        
+      </description>
     </item>
     
   </channel>

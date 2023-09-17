@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>vexpert on </title>
+    <title>vexpert on Intellegence Modifer</title>
     <link>https://intelligencemodifier.com/tags/vexpert/</link>
-    <description>Recent content in vexpert on </description>
+    <description>Recent content in vexpert on Intellegence Modifer</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://intelligencemodifier.com/tags/vexpert/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vExpert 2020 - 2nd Half Applications Are Open. You Should Apply.</title>
-      <link>https://intelligencemodifier.com/posts/2020/vexpert-2020-h2-applications-open/</link>
+      <link>https://intelligencemodifier.com/post/2020-vexpert/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://intelligencemodifier.com/posts/2020/vexpert-2020-h2-applications-open/</guid>
-      <description>First - if you know you want to apply to the VMware vExpert program go here: https://vexpert.vmware.com/ You only have until June 20th before applications close again - Don’t Delay.
+      <guid>https://intelligencemodifier.com/post/2020-vexpert/</guid>
+      <description>
+        
+          
+            First - if you know you want to apply to the VMware vExpert program go here: https://vexpert.vmware.com/ You only have until June 20th before applications close again - Don’t Delay.
 If you may be unsure if you should apply, not feel confident you will make it, or just want more information about the program before applying; Keep reading.
-What is the VMware vExpert Program? Quoted from the front page of the vExpert site:</description>
+What is the VMware vExpert Program? Quoted from the front page of the vExpert site:
+          
+          
+        
+      </description>
     </item>
     
   </channel>
