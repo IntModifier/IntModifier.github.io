@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Claridade</title>
-    <link>https://intelligencemodifier.com/pt/</link>
-    <description>Recent content on Claridade</description>
+    <title></title>
+    <link>http://localhost:1313/pt/</link>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt</language><atom:link href="https://intelligencemodifier.com/pt/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt</language><atom:link href="http://localhost:1313/pt/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
