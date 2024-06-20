@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>VMware Explore on Intellegence Modifer</title>
-    <link>https://intelligencemodifier.com/tags/vmware-explore/</link>
-    <description>Recent content in VMware Explore on Intellegence Modifer</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 07 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://intelligencemodifier.com/tags/vmware-explore/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>VMware Explore 2024 is Right Around the Corner.</title>
-      <link>https://intelligencemodifier.com/post/2024-vmwareexplore-value/</link>
-      <pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://intelligencemodifier.com/post/2024-vmwareexplore-value/</guid>
-      <description>
+    <channel>
+        <title>VMware Explore on Intellegence Modifer</title>
+        <link>https://intelligencemodifier.com/tags/vmware-explore/</link>
+        <description>Recent content in VMware Explore on Intellegence Modifer</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://intelligencemodifier.com/tags/vmware-explore/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>VMware Explore 2024 Las Vegas Content Catalog is Live!</title>
+        <link>https://intelligencemodifier.com/p/vmware-explore-2024-lasvegas-content-catalog-live/</link>
+        <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
         
-          
-            It is that time of year again, Summer is starting to show up, everyone is shocked half the year is over already, and VMware Explore is right around the corner. It has been quite a while since I last sat down to write a blog entry, and while quite a bit has changed for me both personally and professionally in 4 years, I still look forward to VMware Explore every year.
-          
-          
+        <guid>https://intelligencemodifier.com/p/vmware-explore-2024-lasvegas-content-catalog-live/</guid>
+        <description>&lt;img src="https://intelligencemodifier.com/p/vmware-explore-2024-lasvegas-content-catalog-live/vmwx24.png" alt="Featured image of post VMware Explore 2024 Las Vegas Content Catalog is Live!" /&gt;With this year&amp;rsquo;s VMware Explore Las Vegas drawing nearer, the opening of the Content Catalog is finally here. At the time of writing the catalog lists over four hundred sessions spread out across multiple session types, level and focuses. While you cannot build your scheduled yet, that is slated to open on July 16th. For now, you can go through and start to favorite sessions you want to attend. I would highly recommend starting to go through the catalog to give you ample time to browse and save yourself a lot of time when the scheduler opens.</description>
+        </item>
+        <item>
+        <title>VMware Explore 2024 is Right Around the Corner</title>
+        <link>https://intelligencemodifier.com/p/vmware-explore-2024-is-right-around-the-corner/</link>
+        <pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate>
         
-      </description>
-    </item>
-    
-  </channel>
+        <guid>https://intelligencemodifier.com/p/vmware-explore-2024-is-right-around-the-corner/</guid>
+        <description>&lt;img src="https://intelligencemodifier.com/p/vmware-explore-2024-is-right-around-the-corner/explore-2024-banner.png" alt="Featured image of post VMware Explore 2024 is Right Around the Corner" /&gt;It is that time of year again, Summer is starting to show up, everyone is shocked half the year is over already, and VMware Explore is right around the corner. It has been quite a while since I last sat down to write a blog entry, and while quite a bit has changed for me both personally and professionally in 4 years, I still look forward to VMware Explore every year.</description>
+        </item>
+        
+    </channel>
 </rss>

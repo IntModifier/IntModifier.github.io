@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Sccm on Intellegence Modifer</title>
-    <link>https://intelligencemodifier.com/tags/sccm/</link>
-    <description>Recent content in Sccm on Intellegence Modifer</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://intelligencemodifier.com/tags/sccm/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>SCCM Patching Kickstart Script</title>
-      <link>https://intelligencemodifier.com/post/2020-sccmkickstart/</link>
-      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://intelligencemodifier.com/post/2020-sccmkickstart/</guid>
-      <description>
+    <channel>
+        <title>Sccm on Intellegence Modifer</title>
+        <link>https://intelligencemodifier.com/tags/sccm/</link>
+        <description>Recent content in Sccm on Intellegence Modifer</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://intelligencemodifier.com/tags/sccm/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>SCCM Patching Kickstart Script</title>
+        <link>https://intelligencemodifier.com/p/sccm-patching-kickstart-script/</link>
+        <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
         
-          
-            Solving Problems A while back I had the need at my day job to help stream line our Windows Server patching process. We had moved to using SCCM and Maintenance Windows but due to business requirements were not able to allow software updates to be installed too far ahead of time and just sit at PENDING REBOOT.
-Unfortunately, SCCM doesn’t really give you a lot of room for fine tuning, and none of the out of box options fit all our requirements.
-          
-          
+        <guid>https://intelligencemodifier.com/p/sccm-patching-kickstart-script/</guid>
+        <description>Solving Problems A while back I had the need at my day job to help stream line our Windows Server patching process. We had moved to using SCCM and Maintenance Windows but due to business requirements were not able to allow software updates to be installed too far ahead of time and just sit at PENDING REBOOT.
+Unfortunately, SCCM doesn’t really give you a lot of room for fine tuning, and none of the out of box options fit all our requirements.</description>
+        </item>
         
-      </description>
-    </item>
-    
-  </channel>
+    </channel>
 </rss>
