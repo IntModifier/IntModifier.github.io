@@ -12,8 +12,44 @@
         <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
         
         <guid>https://intelligencemodifier.com/p/replaceing-vrli-node/</guid>
-        <description>NOTE: I am not a member of VMware Global Support Services, nor should you use this as any sort of replacement for a service ticket or vmWare published documentation. This is just a process that I had to piece together during my own support case with them wanted to document for home lab use. Attempt the below steps at your own risk.
-Problem Statement While trying to expand storage per the VMware documentation within 2 separate vRLI 4.</description>
+        <description>&lt;p&gt;NOTE: I am not a member of VMware Global Support Services, nor should you use this as any sort of replacement for a service ticket or vmWare published documentation.  This is just a process that I had to piece together during my own support case with them wanted to document for home lab use. Attempt the below steps at your own risk.&lt;/p&gt;
+&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement
+&lt;/h2&gt;&lt;p&gt;While trying to expand storage per the VMware documentation within 2 separate vRLI 4.5 clusters, I had 1 of 3 nodes in each cluster fail to expand storage.  After a few hours with support via email and phone, and several attempts to salvage the nodes by trying to expand the storage manually, it was decided that the nodes needed to be replaced.&lt;/p&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;TLDR
+&lt;/h2&gt;&lt;p&gt;Unjoin bad node from cluster, backup the log data off the node, Delete node, build new node, join new node, restore data to appliance, load data into vRLI.&lt;/p&gt;
+&lt;h2 id=&#34;procedure-used&#34;&gt;Procedure Used
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Remove Node from cluster via UI by following the documentation for your version of vRLI&lt;/li&gt;
+&lt;li&gt;Find a secondary location you can temporarily store the data. I had a utility server that i added an extra 2.3 TB drive to for this.&lt;/li&gt;
+&lt;li&gt;We used PSFTP to connect and move data&lt;/li&gt;
+&lt;li&gt;login to the &amp;lsquo;bad&amp;rsquo; node as root  &lt;code&gt;open root@&amp;lt;applianceFQDN&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;use &lt;code&gt;lcd &amp;lt;destionation loc&amp;gt;&lt;/code&gt; to set your local directory to the destination for the data you found in step 2&lt;/li&gt;
+&lt;li&gt;navigate to the log &amp;lsquo;blob&amp;rsquo; on the appliance - &lt;code&gt;cd /storage/core/loginsight/cidata&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;pull that data - &lt;code&gt;get -r store store&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Wait. this is probably going to take a while. I had to leave hours  running overnight.&lt;/li&gt;
+&lt;li&gt;When the file copy is done, validate you have the right amount in your backup location&lt;/li&gt;
+&lt;li&gt;I had our first copy fail to copy it all so I had to try again&lt;/li&gt;
+&lt;li&gt;Power down the node being replaced&lt;/li&gt;
+&lt;li&gt;Delete the VM&lt;/li&gt;
+&lt;li&gt;Redeploy a new node with the same host-name and IP address&lt;/li&gt;
+&lt;li&gt;Join the new node&lt;/li&gt;
+&lt;li&gt;via the vRLI console, place the new node into Maintenance Mode&lt;/li&gt;
+&lt;li&gt;Open PSFTP&lt;/li&gt;
+&lt;li&gt;login to the new node as root  &lt;code&gt;open root@&amp;lt;applianceFQDN&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lcd&lt;/code&gt; back to your location for step 2. DO NOT lcd INTO the &amp;lsquo;store&amp;rsquo; folder that was created&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd /storage/core/loginsight/cidata&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;load the data back into the appliance using &lt;code&gt;put -r store store&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Waiting again&lt;/li&gt;
+&lt;li&gt;Putty into the appliance as root&lt;/li&gt;
+&lt;li&gt;run &lt;code&gt;cd /storage/core/loginsight/cidata&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Set the correct permission son the store folder with &lt;code&gt;chmod 755 store&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Stop services on the node with &lt;code&gt;service LogInsight stop&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;run the following script to load the log data into the LogInsight application: &lt;code&gt;for bucket in $(ls /storage/core/loginsight/cidata/store | grep -v &#39;generation\|buckets\|strata_write.lock&#39;); do echo y | /usr/lib/loginsight/application/sbin/bucket-index add $bucket --statuses archived; done&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;more waiting&lt;/li&gt;
+&lt;li&gt;start up services - &lt;code&gt;service loginsight start&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;via the vRLI UI, bring the cluster out of maintenance mode&lt;/li&gt;
+&lt;/ol&gt;
+</description>
         </item>
         
     </channel>

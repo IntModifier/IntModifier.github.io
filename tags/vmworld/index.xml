@@ -12,8 +12,27 @@
         <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
         
         <guid>https://intelligencemodifier.com/p/vmworld-2019-kubernetes/</guid>
-        <description>“Any Application, Any Cloud, Any Device” This was once again the main driving message behind all of VMworld this year. However, you could sum up a large majority of the event with one word, Kubernetes. VMware seemed to have something new related to what they refer to as ‘Cloud Native Applications’ everywhere you looked, I have tried to summarize some of the large announcements below.
-Bitnami, Pivotal and Heptio VMware hasn’t been shy about acquisitions this past year, and several of them are directly related to enhancing their Cloud Native portfolio.</description>
+        <description>&lt;p&gt;“Any Application, Any Cloud, Any Device” This was once again the main driving message behind all of VMworld this year. However, you could sum up a large majority of the event with one word, Kubernetes. VMware seemed to have something new related to what they refer to as ‘Cloud Native Applications’ everywhere you looked, I have tried to summarize some of the large announcements below.&lt;/p&gt;
+&lt;h2 id=&#34;bitnami-pivotal-and-heptio&#34;&gt;Bitnami, Pivotal and Heptio
+&lt;/h2&gt;&lt;p&gt;VMware hasn’t been shy about acquisitions this past year, and several of them are directly related to enhancing their Cloud Native portfolio.  Last fall, VMware scooped up Heptio a start-up focused on professional services and supporting companies starting down the Kubernetes road. This evolved into the Essential PKS, a way for companies that need a more custom deployment for Kubernetes then what Enterprise PKS offers, while still being supported by VMware.&lt;/p&gt;
+&lt;p&gt;Jumping to spring 2019, VMware announced their acquisition of Bitnami. This addition adds specialty in the software packaging space, including of course containers. Already offering automation deployment of application stacks to AWS, Azure and Google Cloud Platform they quick slide right in line with VMware’s “Any Cloud” vision and not only could they enhance VMware’s container and Kubernetes products but possibly help re-work how VMware’s virtual appliances are built and deployed, much like the newly announced, self-contained, Kubernetes cluster based vRealize Automation 8.0 appliance.&lt;/p&gt;
+&lt;p&gt;Then a few days before VMworld, and then several times during the General Session(s), VMware announced their intention to acquire their partner in the PKS platform, Pivotal.  Enterprise PKS was VMware’s first large jump into production containers and Kubernetes. Not having any firsthand experience with PKS yet, I can only go off of what I have read but it seems that Enterprise PKS, while coming in at a premium over spinning up your own Kubernetes solution, it does a very nice job at delivering a close to Key-turn ready enterprise K8 deployment. If everything goes through and Pivotal joins the VMware fold, it will be interesting to see even tighter integration into the VMware stack can bring, especially when looking at the rest of the announcements this year.&lt;/p&gt;
+&lt;h2 id=&#34;project-pacific&#34;&gt;Project Pacific
+&lt;/h2&gt;&lt;p&gt;Next we get a peek into the future of vSphere, Project Pacific. To summarize in the style of a cereal slogan from the 90s, “You got your Kubernetes in my vSphere!” Pacific represents the effort to bring Kubernetes into your datacenter as a “first class citizen.” You will be able to see, interact, and manage your K8 Clusters right from the vSphere interface. This won’t just be an add-on for vSphere, the actual framework for Kubernetes will be weaved into the foundation of vSphere.&lt;/p&gt;
+&lt;p&gt;Right now, I look at this a very good way to help any VMware customer (or future customer) bring “Cloud Native Applications” into their production environment. Also, VMware will be including their Harbor container registry as a part of this future version of vSphere. A seemingly small addition, but another step of lowering the barrier of entry into proper container and Kubernetes deployments.&lt;/p&gt;
+&lt;p&gt;Now, I will be the first to admit that my knowledge in Kubernetes is still at a point where I can’t do justice into some of the technical details on how VMware plans to make Kubernetes seamless with Project Pacific. However I can recommend that you check out the Technical Overview by Jared Rosoff  on the VMware blogs and his and Michael West’s VMworld session (HBI4500BU) up on VMworld Videos. You can also find the “Introducing Project Pacific” breakout session by Himanshu Singh and Kit Colbert (HBI4937BU) on the VMworld video site, along with checking out the Day 2 General Session for some live use case demos.&lt;/p&gt;
+&lt;h2 id=&#34;tanzu-and-tanzu-mission-control&#34;&gt;Tanzu and Tanzu Mission Control
+&lt;/h2&gt;&lt;p&gt;Another piece of the VMware Kubernetes puzzle was also announced, VMware Tanzu and  Tanzu Mission Control. Where Pacific focuses on helping you run and manage Kubernetes within vSphere, Tanzu’s focus is you with Kubernetes sprawl across multiple cloud providers. A single management console for administrators to use to manage clusters no matter where they reside, that will then translate your clicks into the proper API for that cloud provider, so you don’t have to learn any cloud specific commands.&lt;/p&gt;
+&lt;p&gt;The Day 2 General Session demos are focused around Tanzu as well, including the fictional company Tanzu Tees,  and you can also catch one of these session recordings from VMworld&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Introducing VMware Tanzu Mission Control: Manage Kubernetes at Scale (KUB1835BU)&lt;/li&gt;
+&lt;li&gt;More Devs, No Problem: Managing Self-service Access with VMware Tanzu (KUB1851BU)&lt;/li&gt;
+&lt;li&gt;Run Upstream Kubernetes Consistently Across Clouds with VMware Tanzu (KUB1840BU)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;kubernetes-academy&#34;&gt;Kubernetes Academy
+&lt;/h2&gt;&lt;p&gt;No matter how VMware simplifies the tools needed to manage a Kubernetes cluster in production, it is still a fundamental change on how we look at applications. Which means training is still needed across IT to get everyone on the same page before architecting these next generation apps. Well VMware is determined to help here as well. Not only can you find several Hands-on-Labs on things like PKS, using NSX-T with Kubernetes, and we can assume Tanzu and Pacific after they release; but you can also take part in the new free training from Kubernetes Academy. At VMworld this year, I had an opportunity to sit through most of (busy schedule this year) an introduction  to containers and Kubernetes. Led by several employees of VMware that came over from the Heptio acquisition, they walked the group through the foundations and creating a container based web application and then combining it with a MySQL container in a Kubernetes cluster. Classes like these are what you will find at Kubernetes.Academy for free to help get everyone from development to infrastructure on the same page when it comes to tiny and mighty deployments.&lt;/p&gt;
+&lt;p&gt;With all the Kubernetes announcements and updates it is very clear, if learning your K8s isn’t on your roadmap, it should be.&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>vRealize at VMworld US 2019</title>
@@ -21,7 +40,66 @@ Bitnami, Pivotal and Heptio VMware hasn’t been shy about acquisitions this pas
         <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
         
         <guid>https://intelligencemodifier.com/p/vrealize-at-vmworld-us-2019/</guid>
-        <description>It is that time of year again, with each VMworld we get new announcements for the vRealize Suite Cloud Management tools. This year, there is a common thread across most of them, supporting more Public Clouds and Kubernetes support, but if you listed to this year’s keynote that will likely not come as a surprise. We are also getting some pretty big updates in a few of the products as well, especially in the area of vRealize Automation.</description>
+        <description>&lt;p&gt;It is that time of year again, with each VMworld we get new announcements for the vRealize Suite Cloud Management tools. This year, there is a common thread across most of them, supporting more Public Clouds and Kubernetes support, but if you listed to this year’s keynote that will likely not come as a surprise. We are also getting some pretty big updates in a few of the products as well, especially in the area of vRealize Automation.  I have tried to break down a summary for each product for now and hope to dive deeper into each as we get more information close to the time they get GA’d.&lt;/p&gt;
+&lt;h2 id=&#34;vrealize-operations-80&#34;&gt;vRealize Operations 8.0
+&lt;/h2&gt;&lt;p&gt;As I shared in my last post, vROPS 8.0 was announced bringing in many additional features, mostly focused on VMware’s goal to support the “any clod” part of its “Any App, Any Cloud, Any Device” vision.  For more details you can read my announcement post here:  &lt;a class=&#34;link&#34; href=&#34;https://www.intelligencemodifier.com/blog/2019/8/19/announcing-vrealize-operations-80&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.intelligencemodifier.com/blog/2019/8/19/announcing-vrealize-operations-80&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;vrealize-automation-80&#34;&gt;vRealize Automation 8.0
+&lt;/h2&gt;&lt;h3 id=&#34;entirely-new-appliance-architecture&#34;&gt;Entirely New Appliance Architecture
+&lt;/h3&gt;&lt;p&gt;It has been a long time rumored but vRA 8 finally contains the overhaul to application architecture. Each appliance will now be a self-contained Kubernetes Pod in which each function of vRA will run in its own group of containers. Sitting through the “Evolving vRealize Automation (HBO1323BU)” session at VMworld, its sounds like the “typical enterprise deployment” is planned to be 3 appliances, that’s it. In order to handle more workflows, you just give more resources to each Virtual Appliance, and the resources will get spread out as needed to the worker groups. This also means, NO MORE WINDOWS BASED IaaS SERVERS.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://intelligencemodifier.com/p/vrealize-at-vmworld-us-2019/vra8_arch.png&#34;
+	width=&#34;750&#34;
+	height=&#34;374&#34;
+	srcset=&#34;https://intelligencemodifier.com/p/vrealize-at-vmworld-us-2019/vra8_arch_hu0a7e7fbb2353ea2476b65d8bfaca9ede_138530_480x0_resize_box_3.png 480w, https://intelligencemodifier.com/p/vrealize-at-vmworld-us-2019/vra8_arch_hu0a7e7fbb2353ea2476b65d8bfaca9ede_138530_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34; &#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;200&#34;
+		data-flex-basis=&#34;481px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;application-overhaul&#34;&gt;Application Overhaul
+&lt;/h3&gt;&lt;p&gt;If you have been using vRA for some time, get ready for some big changes. With 8.0 we will finally see all the new features and functionality beamed down from the vRealize Automation Cloud (formally CAS) product into our local data centers. Some of the big changes are&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fully New HTML 5 interface&lt;/li&gt;
+&lt;li&gt;Ability to edit the YAML behind a blueprint right in the editing canvas&lt;/li&gt;
+&lt;li&gt;Ability to version control your blueprints&lt;/li&gt;
+&lt;li&gt;Action Based Extensibility (ABX) - node.js or Python scripts that can be used expand your workflows.&lt;/li&gt;
+&lt;li&gt;vIDM services will be handled by an external Workspace ONE Access appliance&lt;/li&gt;
+&lt;li&gt;And so much more!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This one personally has me really excited and I cannot wait to get my hands on the GA’d bits to start working with it.  In the meantime, if you are curious on what this version be like, you can check out the Hands-on Lab HOL-2002-03-CMP which is a Getting Started lab for vRealize Automation Cloud.&lt;/p&gt;
+&lt;h2 id=&#34;vrealize-suite-life-cycle-manager-80&#34;&gt;vRealize Suite Life-cycle Manager 8.0
+&lt;/h2&gt;&lt;p&gt;Next up, jumping from version 2.1 to 8.0 we shouldn’t be surprised that vRSLCM has also gotten quite the re-work again. While details are still a bit sparse, we do know that the UI is getting another large overhaul. There will also be an area of the UI referred to as the “Locker”, which seems to be where you will manage passwords, certificates and licenses according to early screenshots.&lt;/p&gt;
+&lt;p&gt;Also, vRSLCM will no longer be an optional part of your management cluster. Right now, it is being listed as the only way to deploy vRealize Automation 8.0. It is also looking to be what might be the suggested method to deploy the Workspace ONE Access appliance that will act as authentication point for all the new vRealize Suite tools.&lt;/p&gt;
+&lt;h2 id=&#34;vrealize-network-insight-50&#34;&gt;vRealize Network Insight 5.0
+&lt;/h2&gt;&lt;p&gt;With the 5.0 release there seems to be 3 main new features being added.  First VMware is adding Support for  NSX SD-WAN (VeloCould).  In demo’s I have seen, this allows your team to have visibility into Flows and Application health for traffic flowing between your VeloCoud sites. Next, they are adding native Kubernetes support. Allowing you to see the traffic in and out of your clusters and even down to the Pod and Service levels of each. Last but not least, in their ever forward moving push to support “Any Cloud” vRNI will now support Azure networks in the same way it already supports AWS and VMware Cloud on AWS.&lt;/p&gt;
+&lt;h2 id=&#34;product-name-alignment&#34;&gt;Product Name Alignment
+&lt;/h2&gt;&lt;p&gt;Sometimes, it’s the small things that make a large difference. As part of the slew of new vRealize goodness, VMware announced a alignment of product naming between their SaaS offerings and the more traditional “on-prem” offerings!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Cloud Automation  Services (CAS) is now vRealize Automation Cloud&lt;/li&gt;
+&lt;li&gt;Log Intelligence is now vRealize Log Insight Cloud&lt;/li&gt;
+&lt;li&gt;Network Insight is now vRealize Network Insight Cloud&lt;/li&gt;
+&lt;li&gt;They also announced the upcoming vRealize Operations Cloud&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://intelligencemodifier.com/p/vrealize-at-vmworld-us-2019/vRCloud.png&#34;
+	width=&#34;1000&#34;
+	height=&#34;411&#34;
+	srcset=&#34;https://intelligencemodifier.com/p/vrealize-at-vmworld-us-2019/vRCloud_hu217cd74b485aa1dac7df33b65afda68b_97941_480x0_resize_box_3.png 480w, https://intelligencemodifier.com/p/vrealize-at-vmworld-us-2019/vRCloud_hu217cd74b485aa1dac7df33b65afda68b_97941_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34; &#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;243&#34;
+		data-flex-basis=&#34;583px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>Announcing vRealize Operations 8.0</title>
@@ -29,8 +107,57 @@ Bitnami, Pivotal and Heptio VMware hasn’t been shy about acquisitions this pas
         <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
         
         <guid>https://intelligencemodifier.com/p/vrops8-annouced/</guid>
-        <description>Today during VMworld 2019, the next version of vRealize Operations Manager was announced. Version 8.0 focuses on improving many existing features and adding several new features especially in the area of Hybrid and Multi Cloud support. Here are some highlights of the new features you can expect when vRealize Operations Manager 8.0 drops later this year
-Core Platform Updates More powerful Self-Driving operations leveraging Machine Learning More What-If Analysis Scenarios including Hyper Converged Infrastructure and Data-center Comparison Troubleshooting Workbench – Correlate information in one dashboard to help track down root cause of issues.</description>
+        <description>&lt;p&gt;Today during VMworld 2019, the next version of vRealize Operations Manager was announced.  Version 8.0 focuses on improving many existing features and adding several new features especially in the area of Hybrid and Multi Cloud support. Here are some highlights of the new features you can expect when vRealize Operations Manager 8.0 drops later this year&lt;/p&gt;
+&lt;h2 id=&#34;core-platform-updates&#34;&gt;Core Platform Updates
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;More powerful Self-Driving operations leveraging Machine Learning&lt;/li&gt;
+&lt;li&gt;More What-If Analysis Scenarios including Hyper Converged Infrastructure and Data-center Comparison&lt;/li&gt;
+&lt;li&gt;Troubleshooting Workbench – Correlate information in one dashboard to help track down root cause of issues. You can even have multiple Troubleshooting Workbenches setup at once to help on multiple issues.&lt;/li&gt;
+&lt;li&gt;Continuous Availability Custer Mode – Spreading your vRealize Operations Nodes across multiple sites/fault domains to help assure cluster availability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;updated-costing-tools&#34;&gt;Updated Costing Tools
+&lt;/h2&gt;&lt;p&gt;Starting with version 6.7 VMware has started implementing cost analysis into the vROPS platform. Now with 8.0, they are adding many improvements and bringing vROPS closer (if not at) feature parity with the vRealize Business for Cloud offering.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Integration with vRealize Automation  - vROPS will now be able to provide Day 0 and Day 2 costing  information as part of vRealize Automation workflows.  Previously only some of this information could be obtained via vRBC.&lt;/li&gt;
+&lt;li&gt;Ability to customize costs per data-center.  VMware acknowledges that not all your data-centers cost the same to run. So starting in 8.0 you will be able to enter custom costing for each data-center connected to vROPS if needed .&lt;/li&gt;
+&lt;li&gt;Depreciation Metrics – You can now take into account for Depreciation of value for hardware over the span of its life in your environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;multi-cloud-support&#34;&gt;Multi-Cloud Support
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;New Management Packs for Cloud Services
+&lt;ul&gt;
+&lt;li&gt;Azure&lt;/li&gt;
+&lt;li&gt;VMware CloudHealth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Costing Management Pack for VMware Cloud on AWS – pull in your costing data from you VMCoAWS portal.&lt;/li&gt;
+&lt;li&gt;Support for Day 2 workload optimization within VMware Cloud on AWS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;application-monitoring&#34;&gt;Application Monitoring
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;20 new applications and services available to monitor&lt;/li&gt;
+&lt;li&gt;Inclusion of Custom Script monitoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;service-discovery-management-pack-now-part-core-product&#34;&gt;Service Discovery Management Pack now part core product
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Connects to Guest VM via VMWare Tools agent (version 10.2 or higher)&lt;/li&gt;
+&lt;li&gt;Still requires Guest OS credentials to access&lt;/li&gt;
+&lt;li&gt;8.0 will ship with 41 known services out of box&lt;/li&gt;
+&lt;li&gt;Ability to add new services to monitoring white list&lt;/li&gt;
+&lt;li&gt;No extra agent needed for one-time script execution such as ‘Get Top-N services&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-compliance-related-features&#34;&gt;Additional Compliance Related Features
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;New Compliance Rules and workflows Out of Box, including support for VMware Cloud on AWS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ability to Import and Export custom compliance standards&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;VMware Announcement: &lt;a class=&#34;link&#34; href=&#34;https://blogs.vmware.com/management/2019/08/whats-new-in-vrealize-operations-8-0.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blogs.vmware.com/management/2019/08/whats-new-in-vrealize-operations-8-0.html&lt;/a&gt;&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>Preparing for VMworld 2019</title>
@@ -38,8 +165,19 @@ Core Platform Updates More powerful Self-Driving operations leveraging Machine L
         <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
         
         <guid>https://intelligencemodifier.com/p/preparing-for-vmworld2019/</guid>
-        <description>I am very excited and honored to be selected to attend VMworld 2019 in San Francisco via the vExpert Blogger Pass. This will be my second VMworld, the first being in Vegas during 2017. So now that my travel plan is locked in, and I am scrolling through sessions to attend I wanted to look back at how I am planning my 2nd venture to this convention.
-Keynotes I am of course planning to attend the Monday and Tuesday keynotes (at the time of writing I don’t see a end of conference keynote listed in the schedule).</description>
+        <description>&lt;p&gt;I am very excited and honored to be selected to attend VMworld 2019 in San Francisco via the vExpert Blogger Pass. This will be my second VMworld, the first being in Vegas during 2017. So now that my travel plan is locked in, and I am scrolling through sessions to attend I wanted to look back at how I am planning my 2nd venture to this convention.&lt;/p&gt;
+&lt;h2 id=&#34;keynotes&#34;&gt;Keynotes
+&lt;/h2&gt;&lt;p&gt;I am of course planning to attend the Monday and Tuesday keynotes (at the time of writing I don’t see a end of conference keynote listed in the schedule). Now I also went to these in 2017, however… I now know the secret of the VMvillage bean bag chairs which would be my recommendation for viewing. Just kickback after breakfast and watch in much less crowded comfort, if you get there early enough to grab a seat that is. (and if this is still a thing this year)&lt;/p&gt;
+&lt;h2 id=&#34;sessions&#34;&gt;Sessions
+&lt;/h2&gt;&lt;p&gt;In 2017, I was still pretty new to the role of System Administrator, and that was also the first time attending an IT conference. This coupled with not knowing many other people going, I loaded my calendar from beginning to end with sessions. Now, this isn’t really a mistake. Most of the sessions I attended had something to do with something I was either doing at work or needed to learn. However, going into this year I am trying to keep some time open to spend time with my co-workers going for the first time, Visit the Expo Hall, stop by the Ask the Expert area and spend some time on my next point…&lt;/p&gt;
+&lt;h2 id=&#34;interacting-with-the-vcommunity&#34;&gt;Interacting with the vCommunity
+&lt;/h2&gt;&lt;p&gt;This is probably going to be my biggest difference from attending in 2017. I wouldn’t say i was very active in the VMware community 2 years ago. I attended VMUGs and followed some people on Twitter. However, I didn’t really reach out past current and past co-workers. For anyone I followed on Twitter I didn’t know, my level of interaction was probably a ‘like’ at most. One of the people i knew that also went tried his best to introduce me to as many people in person as possible but I was mostly a deer in the headlights the entire time.&lt;/p&gt;
+&lt;p&gt;Fast forward 2 years. I am in my 2nd year as a vExpert and made the cut for the first year of the Cloud Management Subprogram this year to boot. I interact with a much larger group of vCommunity people over Twitter and the vExpert Slack, and even take place in discussions (somewhat). Offline, I have continued to attend VMUG meetings locally where I have gotten to know more members and the leaders. Just 2 weeks ago, I was part of a group from our local VMUG chapter that hit the road to attend the Indianapolis VMUG UserCon. Here I got to meet quite a few people I have been following for a while on Twitter and met several new people that I have added to my follow list. The largest difference personally, would probably be that I cracked into the world of speaking this year. I presented at my local VMUG for the first time and now I am scheduled to give a talk at a neighboring VMUGs UserCon this September.&lt;/p&gt;
+&lt;p&gt;So, going into VMworld this year, I plan to leave time open to catch up with people i know, and meet new people. I have also signed up/or plan to take place in a few vCommunity events like the vCoffee exchange. I will of course spend some time in the Bloggers area trying to put together a few posts during the event. If you see a guy clearing his screen for the 5th time to start again, that is probably me. Stop and say Hi!&lt;/p&gt;
+&lt;p&gt;Also, yes, I have registered for a few of the after-hours parties :)&lt;/p&gt;
+&lt;p&gt;Second Also, wear comfortable walking shoes. Sandals were a bad choice last time&lt;/p&gt;
+&lt;p&gt;_Eric&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>VMWorld 2018 - vRealize Suite Announcements</title>
@@ -47,8 +185,36 @@ Keynotes I am of course planning to attend the Monday and Tuesday keynotes (at t
         <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
         
         <guid>https://intelligencemodifier.com/p/vmworld2018-vrealize-suite-announcements/</guid>
-        <description>I wasn&amp;rsquo;t able to make it VMWorld this year, but I spent a good part of the day pouring over twitter and blog posts to find information on the 2018 version of the vRealize Suite. Below are just some quick notes on the features i am most excited about or found the most interesting, along with the official VMware blog post link to learn more.
-vRealize Automation - 7.5 (also vRealize Business for Cloud 7.</description>
+        <description>&lt;p&gt;I wasn&amp;rsquo;t able to make it VMWorld this year, but I spent a good part of the day pouring over twitter and blog posts to find information on the 2018 version of the vRealize Suite. Below are just some quick notes on the features i am most excited about or found the most interesting, along with the official VMware blog post link to learn  more.&lt;/p&gt;
+&lt;h2 id=&#34;vrealize-automation---75-also-vrealize-business-for-cloud-75&#34;&gt;vRealize Automation - 7.5 (also vRealize Business for Cloud 7.5)
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Clarity UI has finally come (officially) to vRA. Taking one more step to unifying the user experience across the suite and VMware products overall.&lt;/li&gt;
+&lt;li&gt;NSX-T Support, making NSX-T blueprints as easy as NSX-V has been.&lt;/li&gt;
+&lt;li&gt;Beefing up the &amp;lsquo;Containers&amp;rsquo; tab with official support for VMware Pivotal Container Services (PKS)&lt;/li&gt;
+&lt;li&gt;Added support for VMware Cloud on AWS
+&lt;a class=&#34;link&#34; href=&#34;https://blogs.VMware.com/management/2018/08/whats-new-vrealize-automation-7-5.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blogs.VMware.com/management/2018/08/whats-new-vrealize-automation-7-5.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vrealize-operations-manager---70&#34;&gt;vRealize Operations Manager - 7.0
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;New and simplified dashboard creation and sharing. This includes a feature i have been waiting for since vCOPS, being able to have dashboards shared out as URLs that DO NOT require a login.  Finally a NOC style dashboard that you don&amp;rsquo;t need to manually log into on your NOC displays.&lt;/li&gt;
+&lt;li&gt;Several VMware Cloud on AWS enhancements.&lt;/li&gt;
+&lt;li&gt;Lots of fine tuning and finishing features that were added/overhauled in 6.7
+&lt;a class=&#34;link&#34; href=&#34;https://blogs.VMware.com/management/2018/08/whats-new-in-vrealize-operations-7-0.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blogs.VMware.com/management/2018/08/whats-new-in-vrealize-operations-7-0.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vrealize-loginsight---47&#34;&gt;vRealize LogInsight - 4.7
+&lt;/h2&gt;&lt;p&gt;Not as exciting of a release (based on information i can find so far) as the other vRealize products. The official blog post lists server REST API improvements including being able to read certificate information via REST, Change to vCenter Integration, and various UI improvements and bug fixes.
+&lt;a class=&#34;link&#34; href=&#34;https://blogs.VMware.com/management/2018/08/vrealize-log-insight-4-7-september-2018-new-release.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blogs.VMware.com/management/2018/08/vrealize-log-insight-4-7-september-2018-new-release.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;vrealize--lifecycle-configuration-manager---20&#34;&gt;vRealize  Lifecycle Configuration Manager - 2.0
+&lt;/h2&gt;&lt;p&gt;So far this is only referenced in the overall vRealize Suite 2018 post (&lt;a class=&#34;link&#34; href=&#34;https://blogs.VMware.com/management/2018/08/whats-new-vrealize-suite-2018.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blogs.VMware.com/management/2018/08/whats-new-vrealize-suite-2018.html&lt;/a&gt;), however the drastic improvements from 1.0 to 1.3 have my very excited to see what has caused the jump up to 2.0 all of a sudden.&lt;/p&gt;
+&lt;h2 id=&#34;vrealize-network-insight---39&#34;&gt;vRealize Network Insight - 3.9
+&lt;/h2&gt;&lt;p&gt;Not a lot of new information was provided yet, but i will try to update this post if more comes out.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blogs.VMware.com/management/2018/08/VMware-vrealize-network-insight-3-9.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blogs.VMware.com/management/2018/08/VMware-vrealize-network-insight-3-9.html&lt;/a&gt;&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>Set-Location &#39;VMworld 2017&#39;</title>
@@ -56,8 +222,15 @@ vRealize Automation - 7.5 (also vRealize Business for Cloud 7.</description>
         <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
         
         <guid>https://intelligencemodifier.com/p/set-location-vmworld2017/</guid>
-        <description>Well technically I am now back home, but I liked the title and ran with it.
-This year, I was lucky enough to attend my first VMWorld in Las Vegas, NV. To say that it was awesome, would be an understatement. Not only did I have a chance listen to some amazing sessions (and ear mark several for viewing once the VoDs are up), but I also got to meet quite a few VMware Community members.</description>
+        <description>&lt;p&gt;Well technically I am now back home, but I liked the title and ran with it.&lt;/p&gt;
+&lt;p&gt;This year, I was lucky enough to attend my first VMWorld in Las Vegas, NV. To say that it was awesome, would be an understatement. Not only did I have a chance listen to some amazing sessions (and ear mark several for viewing once the VoDs are up), but I also got to meet quite a few VMware Community members.&lt;/p&gt;
+&lt;p&gt;I was sent to VMWorld for my job, which is something i am very grateful for, and I wanted to make sure my manager didn&amp;rsquo;t regret sending me to Las Vegas for almost a week on the company&amp;rsquo;s dime.  So I made sure to register and attend as many expert led sessions as possible on topics that relate to my day to day job and items that may prove beneficial to our shop in the future. They ranged from Introductory Overviews of new solutions to Technical Deep Dives of items I am responsible for on a daily basis. There were even a few community discussion groups that weren&amp;rsquo;t on a strict topic, but more just Q&amp;amp;A between peers.&lt;/p&gt;
+&lt;p&gt;Before I got to badge pickup I knew that this cannot be the only VMWorld I attend. I met peers on the airplane and talked about differences and similarities between our IT lives.  Walking the halls towards registration it became obvious that there was something unique about being together with 20-30 thousand of one&amp;rsquo;s peers.  Meeting people from across the globe, that deal with or have found solutions to issues you face every day was amazing. There was even a point near the end of the week in the VMware Technical Network (VMTN) booth where a speaker on the VMware Validated Designs had dropped out due to illness where I found my self sharing my, all be it still limited, knowledge about the VVDs and why one might choose to follow them. Thanks to a friend, and former co-worker, I was also able to meet several of the people behind the blogs and Twitter handles that I follow; Along with new individuals that will be added to that list.&lt;/p&gt;
+&lt;p&gt;I was surprised at how much one could benefit from the &amp;ldquo;Vendor Showcase&amp;rdquo; as well. Typically these setups are known for trading E-Mail address for S.W.A.G, and don&amp;rsquo;t get me wrong, that did happen. Meeting new companies, either within new spaces that I haven&amp;rsquo;t dealt with yet, or alternatives to solutions I already help maintain.  However, the biggest surprise was that I was also able connect with vendors I already deal with through work, and because they sent actual experts to attend the booth I got quick answers to some questions that I have had for a while that support calls for forum posts never fully answered.&lt;/p&gt;
+&lt;p&gt;Then, of course, there were the vendor sponsored events that started after the conference doors closed each night. Being my first VMWorld and my first major IT conference in general, I am not sure anything could have prepared me for the scope of these. From networking social hours to flat out concerts, these companies get that we IT work hard and like to play harder.&lt;/p&gt;
+&lt;p&gt;Thank you VMWorld I will never forget my first trip, and now I must figure out how to get back next year&amp;hellip;&lt;/p&gt;
+&lt;p&gt;$Eric&lt;/p&gt;
+</description>
         </item>
         
     </channel>
