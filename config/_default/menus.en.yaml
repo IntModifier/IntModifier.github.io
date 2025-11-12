@@ -1,0 +1,30 @@
+main:
+  - name: Archives
+    identifier: archives
+    url: /archives
+    weight: 1
+    params:
+      icon:
+        vendor: bs
+        name: archive
+        className: text-primary-emphasis
+
+#  - name: Links
+#    identifier: links
+#    weight: 2
+#    params:
+#      header: The HB links community.
+#      icon:
+#        vendor: bs
+#        name: link-45deg
+#        className: text-primary-emphasis
+
+#  - name: GitHub
+#    parent: links
+#    url: https://github.com/IntModifier
+#    weight: 11
+#    params:
+#      icon:
+#        vendor: fab
+#        name: github
+#      description: The code repository.

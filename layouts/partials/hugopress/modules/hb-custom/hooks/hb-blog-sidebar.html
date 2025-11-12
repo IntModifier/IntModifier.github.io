@@ -1,0 +1,17 @@
+<div class="hb-module">
+  {{ with resources.Get "images/vmug-leader.png" }}
+    <center><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt=""></center>
+  {{ end }}
+  <p></p>
+  {{ with resources.Get "images/vexpert-8-years.png" }}
+    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+  {{ end }}
+  <p></p>
+  {{ with resources.Get "images/vcp-vcf9-arch-logo.png" }}
+    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+  {{ end }}  
+  <p></p>
+  {{ with resources.Get "images/asqsscgb.png" }}
+    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+  {{ end }}  
+</div>
